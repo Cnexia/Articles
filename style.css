@@ -1,0 +1,80 @@
+
+p{
+    margin: 0;
+
+}
+
+*{
+    padding: 0;
+    margin: auto;
+    max-width: 1920px;
+    
+}
+a:link {
+    text-decoration: none;
+    }
+    
+    a:visited {
+    text-decoration: none;
+    }
+    .ph-page {
+        margin-top: 100px;
+    }
+
+
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the article header and image */
+.article-header {
+    background-color: #f3f3f3;
+    height: 500px; /* Adjust the height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.article-image {
+    background-image: url('https://assets.phenompeople.com/CareerConnectResources/prod/CNEXEMEA/images/ELEMENETN1-1698240181542.png'); /* Add your article image */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* Style for the article content */
+.article-content {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.article-title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.article-meta {
+    color: #777;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+.article-text {
+    margin-top: 1rem;
+    line-height: 1.5;
+}
+
+/* Style for related articles */
+.related-articles {
+    padding: 2rem;
+    max-width: 1200px;
+    margin:  0 auto;
+    text-align: left;
+}
+
+

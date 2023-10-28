@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400;1,500;1,600&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+    <title>Lancement de Cnexia Rabat (Inauguration)</title>
+</head>
+<body>
+    <style>
+
+
+
+        /* --------------------->Dernier_nouvelle_widget<----------------------- */
+        .title{
+        font-size: 2.25rem;
+        font-family: 'GTAmerica-Medium';
+        color: #044123;
+        }
+
+        .Dernier_nouvelle_widget{
+                max-width: 75rem;
+
+                margin-top: 5rem;
+                margin-bottom: 0;
+                margin-left: auto;
+                margin-right: auto;
+
+                display: grid;
+                grid-template-rows: auto auto;
+                grid-gap: 2rem;
+                position: relative;
+
+            }
+            .widegt_title{
+                width: 100%;
+                font-style: normal;
+                line-height: normal;
+                text-align: center;
+                text-align: left;
+            }
+            .widget_content{
+                display: grid;
+                grid-template-columns: auto auto auto;
+                grid-gap: 2rem; 
+            }
+            .communiquer{
+                height: auto;
+                display: grid;
+                grid-template-rows: 1fr .2fr .4fr;
+                justify-content: flex-start; /* Horizontally center items */
+                align-items: flex-start;
+            }
+            .communiquer_img{
+                width: 23.06381rem;
+                height: 16.39175rem;
+                
+                background: #044123;
+                overflow: hidden;
+                position: relative;
+                display: flex;
+                
+                
+            }
+            .communiquer_img img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                position: absolute; /* Position the image absolutely within the parent div */
+                top: 50%; /* Move the image down by 50% of its height */
+                left: 50%; /* Move the image right by 50% of its width */
+                transform: translate(-50%, -50%);
+                transition: transform 0.3s ease;
+                transform-origin: center center;
+
+            }
+            
+
+            .communiquer_sub_title{
+                margin-top: .5rem;
+                color: #8F8F8F;
+                font-size: 0.75rem;
+                font-style: normale;
+                line-height: normal;
+                text-transform: uppercase;
+                font-family: 'GTAmerica-Light';
+                width: 100%;
+                text-align: left;
+            }
+            .communique_title a{
+                color: #00966C;
+                font-family: 'GTAmerica-Regular';
+                font-size: 1.25rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-decoration: none;
+                
+            }
+            .communique_title{
+                margin-top: .5rem;
+    
+            }
+
+            /*--------- Hovering effect -----------*/
+            /* #communique_title:hover  .communiquer_img img{
+                transform: translate(-50%, -50%) scale(1.2);
+            } */
+
+            
+            .communiquer_img:hover img{
+                transform: translate(-50%, -50%) scale(1.2);
+            }
+
+            /* --------------------->top elements<----------------------- */
+
+
+                p{
+                    margin: 0;
+
+                }
+
+                *{
+                    padding: 0;
+                    margin: auto;
+                    max-width: 1920px;
+                    
+                }
+                a:link {
+                    text-decoration: none;
+                    }
+                    
+                    a:visited {
+                    text-decoration: none;
+                    }
+                    .ph-page {
+                        margin-top: 100px;
+                    }
+
+                    .top-nav{
+                        display: none !important;
+                    }
+
+                    .inner-container {
+                        max-width: 1440px;
+                        width: 1296px;
+                        margin: 0 auto;
+                        padding-top: 0px;
+                        padding-bottom: 64px;
+                    }
+
+                    .ph-page {
+                        margin-top: 0px;
+                    }
+
+
+                /* Reset some default styles */
+                body, h1, p {
+                    margin: 0;
+                    padding: 0;
+                }
+
+                /* Style for the article header and image */
+                .article-header {
+                    background-color: #ffffff;
+                    max-height: 500px;
+                    height: 500px; /* Adjust the height */
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .article-image {
+                    background-image: url('https://assets.phenompeople.com/CareerConnectResources/prod/CNEXEMEA/images/IMG_6694-1698320660448.jpg'); /* Add your article image */
+                    background-size: cover;
+                    background-position: 25% 45%;
+                    width: 100%;
+                    height: 100%;
+                }
+
+                /* Style for the article content */
+                .article-content {
+                    padding: 2rem;
+                    max-width: 800px;
+                    margin: 0 auto;
+                    text-align: left;
+                }
+
+                .article-title {
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 2rem;
+                    font-weight: 800;
+                    color: #044123;
+                }
+
+                .article-meta {
+                    color: #00966C;
+                    font-size: 0.8rem;
+                    margin-top: 0.5rem;
+                }
+
+                .article-text {
+                    font-family: 'Montserrat', sans-serif;
+                    margin-top: 1rem;
+                    line-height: 1.5;
+                    font-weight: 500;
+                }
+
+                /* Style for related articles */
+                .related-articles {
+                    padding: 2rem;
+                    max-width: 1200px;
+                    margin:  0 auto;
+                    text-align: left;
+                }
+
+
+
+                @media (max-width: 1250px){
+                    /* --------------------->Dernier_nouvelle_widget<---------------- */
+                    .Dernier_nouvelle_widget{
+                                    max-width: 60rem;
+                    }
+                    .widget_content{
+                                    display: grid;
+                                    grid-template-columns: 50% 50%;
+                                    grid-template-rows: auto;
+                                    grid-gap: 1rem; 
+
+                    }
+                }
+                
+                @media (max-width: 1024px){
+                    .Dernier_nouvelle_widget{
+                max-width: 50rem;
+                }
+                .widget_content{
+                                display: grid;
+                                grid-template-columns: 50% 50%;
+                                grid-template-rows: auto;
+                                grid-gap: 1rem; 
+
+                }
+
+                }
+
+                @media (max-width: 768px) {
+                    /* --------------------->Dernier_nouvelle_widget<---------------- */
+
+                    .Dernier_nouvelle_widget{
+                                    max-width: 37.5rem;
+                    }
+                    .widget_content{
+                                    display: grid;
+                                    grid-template-columns: none;
+                                    grid-template-rows: auto;
+                                    grid-gap: 1rem; 
+
+                    }
+                    .communiquer{
+                                    display: block;
+                                    grid-template-rows: auto auto auto;
+                                    justify-content: center; /* Horizontally center items */
+                                    align-items: center;
+                                    max-width: 24rem;
+                                    margin: auto;
+                                }
+                    .article-header{
+                        height: 300px;
+                    
+                    }
+
+                    .article-image{
+                        background-position: center;
+                        background-size: contain;
+                        height: 100%;
+                        background-repeat: no-repeat;
+                    }
+                }
+
+
+                @media (max-width:450px){
+                    .Dernier_nouvelle_widget{
+                max-width: auto;
+                margin-left: .5rem;
+                margin-right: .5rem;
+                }
+                .widget_content{
+                                display: grid;
+                                grid-template-columns: none;
+                                grid-template-rows: auto;
+                                grid-gap: 1rem; 
+
+                }
+                .communiquer{
+                                display: block;
+                                grid-template-rows: auto auto auto;
+                                justify-content: center; /* Horizontally center items */
+                                align-items: center;
+                                max-width: 22.5rem;
+                                margin: auto;
+                            }
+
+                            .article-header{
+                        height: 350px;
+                    
+                    }
+                }
+
+                @media (max-width: 380px){
+                    /* --------------------->Dernier_nouvelle_widget<---------------- */
+                    .Dernier_nouvelle_widget{
+                                    max-width: auto;
+                                    margin-left: .5rem;
+                                    margin-right: .5rem;
+                    }
+                    .widget_content{
+                                    display: grid;
+                                    grid-template-columns: none;
+                                    grid-template-rows: auto;
+                                    grid-gap: 1rem; 
+
+                    }
+                    .communiquer{
+                                    display: block;
+                                    grid-template-rows: auto auto auto;
+                                    justify-content: center; /* Horizontally center items */
+                                    align-items: center;
+                                    max-width: 21.25rem;
+                                    margin: auto;
+                    }
+                    .communiquer_img {
+                    width: 21.25rem;
+                    }
+                }
+
+
+
+
+
+  
+
+
+    </style>
+
+
+
+    <header class="article-header">
+        <div class="article-image"></div>
+    </header>
+    <article class="article-content">
+        <h1 class="article-title">Cnexia Rabat... Vers de nouveaux horizons</h1>
+        <p class="article-meta">Published on October 25, 2023 by COMM</p>
+        <div class="article-text">
+            <p>Cnexia a consolidé sa présence au Maroc, en inaugurant son second site à Rabat. Le jeudi 8 décembre, 2022 en présence de Madame Nell Stewart, Ambassadrice du Canada au Maroc, Madame Sarah Lamrani, Secrétaire générale du Ministère de la Transition Numérique et de la Réforme de l’Administration, Madame Hadeer Hassan, Première vice-présidente Services Opérationnels de Bell Canada et M. Sébastien Lafond, Vice-président Services Opérationnels de Bell Canada, Cnexia a procédé à l’inauguration officielle de son nouveau site situé au Technopolis à Rabat. <br><br>
+
+                Les nouveaux locaux sont abrités dans un bâtiment s’étalant sur plus de 4000 m2, et disposant d'une architecture adaptée pour assurer un cadre de travail épanouissant aux nouvelles équipes. La cérémonie d’inauguration, présidée par M. Nawfal Jabri a débuté avec le coupé de ruban puis une visite des locaux et s’est enchaînée avec les allocutions de Madame l’Ambassadrice du Canada, la Secrétaire générale du Ministère de la Transition Numérique et de la Réforme de l’Administration, la Première vice-présidente Service Opérationnel de Bell Canada. <br><br>
+                
+                À travers son discours, le président de Cnexia, M. Nawfal Jabri, a souligné, que cette expansion s’inscrit dans la dynamique de création d’emplois en lien avec le mémorandum d’entente signé en date du 20 avril 2022 entre Cnexia et le ministère de l’Industrie et du Commerce ainsi que le ministère de la Transition Numérique et de la Réforme de l’Administration. Ce nouveau site promeut l’employabilité dans la région Rabat-Salé-Kénitra en créant des opportunités d’emploi dans différents métiers. <br><br>
+                
+                M. Nawfal Jabri a précisé que l’objectif de Cnexia à l’horizon de 2023 est d’atteindre 700 collaborateurs sur le site de Rabat, portant l’effectif global de l’entreprise à 2000 employés. Ainsi que son ambition d’être le plus grand centre de la relation client basé au Maroc qui sert le marché Canadien en se positionnant autant que leader dans les métiers des nouvelles technologies en faisant partie des 10 meilleurs employeurs du pays.</p>
+            <!-- Add your content here -->
+        </div>
+    </article>
+    <section class="related-articles">
+       <!----------------Dernier Nouvelle widget-------------->
+
+    <div class="Dernier_nouvelle_widget">
+        <div class="title widegt_title">
+            <p>See more ...</p>
+        </div>
+        <div class="widget_content">
+
+            <div class="communiquer">
+                <div class="communiquer_img">
+                    <img id="communiquer_img" src="https://assets.phenompeople.com/CareerConnectResources/prod/CNEXEMEA/images/MicrosoftTeams-image91-1698239855003.jpg" alt="">
+                </div>
+                <div class="communiquer_sub_title">
+                    <p>Communiqués</p>
+                </div>
+                <div class="communique_title">
+                    <a id="communique_title" href="https://www.cnexia.com/Lancement_De_Cnexia_Tech" style="text-decoration: none; "><p>Cnexia tech : L’innovation en action</p></a>
+                </div>
+            </div>
+
+            <div class="communiquer">
+                <div class="communiquer_img">
+                    <img id="communiquer_img" src="https://assets.phenompeople.com/CareerConnectResources/prod/CNEXEMEA/images/MicrosoftTeams-image95-1698239850211.jpg" alt="">
+                </div>
+                <div class="communiquer_sub_title">
+                    <p>Communiqués</p>
+                </div>
+                <div class="communique_title">
+                    <a id="communique_title" href="https://www.cnexia.com/Visite_HEC_Montr%C3%A9al"><p>Une visite enrichissante pour les étudiants de HEC Montréal</p></a>
+                </div>
+            </div>
+
+            <div class="communiquer">
+                <div class="communiquer_img">
+                    <img id="communiquer_img" src="https://assets.phenompeople.com/CareerConnectResources/prod/CNEXEMEA/images/MicrosoftTeams-image93-1698239853725.jpg" alt="">
+                </div>
+                <div class="communiquer_sub_title">
+                    <p>Communiqués</p>
+                </div>
+                <div class="communique_title">
+                    <a id="communique_title" href="https://www.cnexia.com/Actions_sociales"><p>Tous engagés pour un sourire d’enfant</p></a>
+                </div>
+            </div>
+
+            <div class="communiquer">
+                <div class="communiquer_img">
+                    <img id="communiquer_img" src="https://assets.phenompeople.com/CareerConnectResources/prod/CNEXEMEA/images/MicrosoftTeams-image88-1698239861248.jpg" alt="">
+                </div>
+                <div class="communiquer_sub_title">
+                    <p>Communiqués</p>
+                </div>
+                <div class="communique_title">
+                    <a id="communique_title" href="https://www.cnexia.com/All_stars"><p>13ème édition du All Stars, une célébration éblouissante des performances exceptionnelles</p></a>
+                </div>
+            </div>
+
+
+            <div class="communiquer">
+                <div class="communiquer_img">
+                    <img id="communiquer_img" src="https://assets.phenompeople.com/CareerConnectResources/prod/CNEXEMEA/images/MicrosoftTeams-image96-1698251261246.jpg" alt="">
+                </div>
+                <div class="communiquer_sub_title">
+                    <p>Communiqués</p>
+                </div>
+                <div class="communique_title">
+                    <a id="communique_title" href="https://www.cnexia.com/Programme_Nostalgie"><p>Le passé a repris vie chez Cnexia</p></a>
+                </div>
+            </div>
+
+
+            <div class="communiquer">
+                <div class="communiquer_img">
+                    <img id="communiquer_img" src="https://assets.phenompeople.com/CareerConnectResources/prod/CNEXEMEA/images/IMG_8092-1698253817441.jpg" alt="">
+                </div>
+                <div class="communiquer_sub_title">
+                    <p>Communiqués</p>
+                </div>
+                <div class="communique_title">
+                    <a id="communique_title" href="https://www.cnexia.com/Tournoi_de_foot_des_entreprise"><p>Cnexia brille et se classe 3ème au Tournoi National de Football des Entreprises</p></a>
+                </div>
+            </div>
+
+            
+
+
+        </div>
+    </div>
+
+    <!----------------The last widget-------------->
+    </section>
+</body>
+</html>

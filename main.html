@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        /* Inline styles for email compatibility */
+        #email {
+            margin: auto;
+            width: 600px;
+            
+            display: grid;
+        }
+        p{
+            margin: 0;
+            line-height: 1.2;
+        }
+        .header{
+            width: 600px;
+            height: 250px;
+            position: relative;
+            text-align: center;
+            
+        }
+        .background_img{
+            width: 100%;
+            height: 100%;
+            background-image: url("https://assets.phenompeople.com/CareerConnectResources/prod/CNEXEMEA/images/news-letter-header-1696949627472.png");
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            width: 100%;
+            position: relative;
+            z-index: 1;
+        }
+        .header_content{
+            position: absolute;
+            z-index: 2;
+
+            display: grid;
+            grid-template-rows: auto;
+            padding: 5%;
+            grid-gap: 15%;
+            top: 0;
+            margin: 0;
+
+        }
+        .Header_title{
+            color: white;
+            font-family: 'Montserrat';
+            font-size: 3rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            text-transform: uppercase;
+        }
+        .header_text{
+            color: #044123;
+            text-align: center;
+            font-family: Montserrat;
+            font-size: .8rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-left: 10%;
+            margin-right: 10%;
+            
+        }
+        .titles{
+            display: grid;
+            grid-template-rows: auto;
+            grid-gap: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px ;
+        }
+        .title{
+            display: grid;
+            grid-template-columns: .1fr 9fr;
+            grid-gap: 5px;
+            line-height: 10px;
+        }
+        .main_title{
+            color: #044123;
+            font-family: Montserrat;
+            font-size:1.2rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        .sub_title{
+            color: #03B585;
+            font-family: GT America;
+            font-size: 1remrem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .content_container{
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+        .right_side{
+            width: 250px;
+            height: 200px;
+            background-color: #03B585;
+            border-radius: 10px;
+        }
+        .left_side{
+            padding: 10%;
+        }
+    </style>
+
+    <div id="email">
+        <div class="header">
+            <div class="background_img">
+
+            </div>
+            <div class="header_content">
+                <div class="logo">
+                    <svg width="100" height="25" viewBox="0 0 164 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_39_265)">
+                        <path d="M0 29.4025V29.3037C0 21.793 5.71756 15.609 13.7326 15.609C18.6685 15.609 21.6985 17.278 24.191 20.0269L19.6468 24.9352C17.9359 23.1675 16.3726 22.0383 13.685 22.0383C9.97005 22.0383 7.33166 25.2776 7.33166 29.205V29.3037C7.33166 33.3776 9.92248 36.5691 13.9784 36.5691C16.4709 36.5691 18.1817 35.4893 19.9892 33.7709L24.3385 38.1888C21.7968 40.987 18.8651 43 13.6359 43C5.76671 43 0 36.8638 0 29.4025Z" fill="white"/>
+                        <path d="M27.221 16.0995H34.6494V19.8293C36.3602 17.6204 38.6086 15.6074 42.322 15.6074C47.9904 15.6074 51.217 19.2894 51.217 25.3763V42.4091H43.7886V27.7318C43.7886 24.1978 42.1761 22.3822 39.2919 22.3822C36.4078 22.3822 34.6494 24.1978 34.6494 27.7318V42.4091H27.221V16.0995Z" fill="white"/>
+                        <path d="M54.4405 29.4025V29.3037C54.4405 21.793 59.768 15.609 67.3914 15.609C76.1389 15.609 80.1473 22.4317 80.1473 29.893C80.1473 30.4822 80.0981 31.1209 80.049 31.8566H61.8213C62.5538 35.2441 64.9004 37.0103 68.2222 37.0103C70.7147 37.0103 72.4747 36.2251 74.5756 34.3108L78.8281 38.09C76.3356 41.1829 72.8663 42.9984 68.1255 42.9984C60.2579 42.9984 54.442 37.4514 54.442 29.4009M72.9155 27.1919C72.4763 23.8539 70.5213 21.5956 67.393 21.5956C64.2646 21.5956 62.3112 23.8045 61.7246 27.1919H72.9155Z" fill="white"/>
+                        <path d="M93.244 23.806L98.1799 16.0995H105.951L97.1049 28.9613L106.341 42.4107H98.3749L93.0966 34.2136L87.8182 42.4107H80.049L89.2357 29.0584L80.3914 16.0995H88.3573L93.244 23.806Z" fill="white"/>
+                        <path d="M116.604 16.0995H109.176V42.4107H116.604V16.0995Z" fill="white"/>
+                        <path d="M120.463 29.3037V29.2049C120.463 20.4186 126.181 15.6074 132.387 15.6074C136.346 15.6074 138.789 17.4229 140.548 19.5347V16.0979H147.976V42.4091H140.548V38.6299C138.74 41.1334 136.295 42.9012 132.387 42.9012C126.278 42.9012 120.463 38.09 120.463 29.3037ZM140.648 29.3037V29.2049C140.648 24.8364 137.765 21.9395 134.294 21.9395C130.824 21.9395 127.892 24.7871 127.892 29.2049V29.3037C127.892 33.6721 130.824 36.5691 134.294 36.5691C137.765 36.5691 140.648 33.6737 140.648 29.3037Z" fill="white"/>
+                        <path d="M140.659 8.86596L149.552 0H159.554C162.009 0 164 1.9987 164 4.46563V14.5117L155.107 23.4461V11.6371C155.107 10.1002 153.862 8.858 152.332 8.86755H140.659V8.86596Z" fill="white"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_39_265">
+                        <rect width="164" height="43" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                        
+                </div>
+                <div class="Header_title">
+                    <p><span style="color: #044123 ;">NEWS</span>LETTER</p>
+                </div>
+                <div class="header_text">
+                    <p>Nous avons le plaisir de vous présenter la première édition de notre newsletter semestrielle. Cette édition regroupe toutes nos événements et programmes phares depuis janvier 2023. </p>
+                </div>
+            </div>
+        </div>
+        <div class="titles">
+            <div class="title">
+                <div class="element">
+                    <svg width="38" height="20" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M37.7722 16.0488C36.9768 10.9486 34.1527 6.52023 30.1512 3.61487C30.0205 3.85906 29.9016 4.11026 29.7949 4.3677C29.1554 5.91162 28.9881 7.61051 29.3141 9.24952C29.6401 10.8885 30.4449 12.3941 31.6265 13.5757C32.8082 14.7574 34.3137 15.5621 35.9527 15.8881C36.5547 16.0079 37.1647 16.0611 37.7722 16.0488ZM36.2068 27.0682C35.3994 27.0104 34.5934 26.9022 33.7936 26.7431C30.0076 25.99 26.5301 24.1312 23.8006 21.4017C21.0711 18.6722 19.2123 15.1946 18.4592 11.4087C17.7061 7.62278 18.0926 3.69857 19.5698 0.132318C19.5867 0.0914631 19.6038 0.0506763 19.621 0.00995827C19.4148 0.00333786 19.2078 0 19 0C8.50659 0 0 8.50659 0 19C0 29.4934 8.50659 38 19 38C26.6087 38 33.1728 33.5276 36.2068 27.0682Z" fill="#044123"/>
+                        </svg>
+                        
+                </div>
+                <div class="main_title">
+                    <p>Lancement de Cnexia Rabat (Inauguration)</p>
+                    <span class="sub_title">Cnexia Rabat... Vers de nouveaux horizons</span>
+                </div>
+            </div>
+            
+            
+        </div>
+        <div class="content_container">
+            <div class="left_side">
+                <p>Nous avons consolidé notre présence au Maroc, en inaugurant notre second site à Rabat en décembre 2022. Actuellement le site compte plus de 700 talents prêts à relever des défis et à atteindre de nouveaux sommets. </p>
+            </div>
+            <div class="right_side">
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
